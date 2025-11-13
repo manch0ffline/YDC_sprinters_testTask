@@ -14,7 +14,7 @@ const TopBar: React.FC<Props> = ({ type }) => {
         <img className="top-bar__logo" src={logo} alt="company-logo" />
       </a>
 
-      {type === TopBarType.menu ? (
+      {type === TopBarType.Menu ? (
         <a href="#" className="icon icon--close"></a>
       ) : (
         <a href="#menu" className="icon icon--menu"></a>

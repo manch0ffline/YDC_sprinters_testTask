@@ -9,7 +9,7 @@ const CarrierProfilePage = () => {
   return (
     <>
       <Menu />
-      <TopBar type={TopBarType.app} />
+      <TopBar type={TopBarType.App} />
       <Header />
       <Main />
       <Footer />

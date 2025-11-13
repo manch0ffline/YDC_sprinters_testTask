@@ -6,7 +6,7 @@ import TopBar from '../TobBar/TopBar';
 const Menu = () => {
   return (
     <aside className="menu app__menu" id="menu">
-      <TopBar type={TopBarType.menu} />
+      <TopBar type={TopBarType.Menu} />
       <div className="menu__content container">
         <Navigation />
         <AuthButtons />

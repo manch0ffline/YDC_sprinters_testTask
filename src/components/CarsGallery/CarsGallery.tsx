@@ -1,4 +1,10 @@
-const CarsGallery = ({ car1, car2, car3 }) => {
+import type React from "react";
+
+type Props = {
+  [key: string]: string;
+};
+
+const CarsGallery: React.FC<Props> = ({ car1, car2, car3 }) => {
   return (
     <div className="d-flex flex-column gap-3">
       <img src={car1} alt="car 1" />
