@@ -1,0 +1,10 @@
+.Breadcrumbs {
+  &__crumb {
+    cursor: pointer;
+    color: #7C8493;
+
+    &--current {
+      color: #202430;
+    }
+  }
+}

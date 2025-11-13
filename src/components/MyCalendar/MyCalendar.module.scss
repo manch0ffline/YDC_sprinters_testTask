@@ -1,0 +1,55 @@
+.MyCalendar {
+  box-shadow: -1px 1px 5px 1px $light-grey;
+  width: 100%;
+  max-width: fit-content;
+
+  &__button {
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #ffffff00;
+    border: 1px solid $blue-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 12px;
+    gap: 10px;
+    color: $blue-color;
+  }
+
+  &__calendar {
+    width: 100%;
+  }
+}
+
+.my-today {
+  background-color: #e6e6e6;
+}
+
+.rdp-selected {
+  color: #fff;
+  background-color: $blue-color;
+  border-radius: 50%;
+}
+
+.my-outside {
+  color: $light-grey;
+}
+
+.rdp-day {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.rdp-caption_label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.rdp-month_caption {
+  padding: 12px;
+}
+
+.rdp-weekdays {
+  font-size: 14px;
+}

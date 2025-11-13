@@ -1,0 +1,13 @@
+.Drivers {
+  padding-block: 72px;
+
+  &__all-drivers {
+    font-weight: 600;
+    font-size: 16px;
+    color: $blue-color;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

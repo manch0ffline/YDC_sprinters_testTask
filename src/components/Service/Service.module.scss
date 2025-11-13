@@ -1,0 +1,26 @@
+.Service {
+  padding-block: 72px;
+
+  &__title {
+    color: $light-black;
+  }
+
+  &__text {
+    color: $light-black;
+  }
+
+  &__description {
+    color: $main-text-color;
+  }
+
+  &__items {
+    
+    gap: 32px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}

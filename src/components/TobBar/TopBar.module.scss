@@ -1,0 +1,26 @@
+.top-bar {
+  padding-block: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 78px;
+
+  @include on-tablet {
+    padding-block: 32px;
+  }
+
+  @include on-desktop {
+    padding-block: 0px;
+  }
+
+  &__logo-link {
+    display: flex;
+  }
+
+  &__logo {
+    @include on-desktop() {
+      width: 160px;
+    }
+  }
+}

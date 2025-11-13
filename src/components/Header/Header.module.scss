@@ -1,0 +1,14 @@
+.Header {
+  background-color: $bg-color;
+
+  &__title {
+    font-weight: 800;
+    font-size: 48px;
+    margin: 0;
+    color: $light-black;
+  }
+
+  &__link {
+    color: $blue-color;
+  }
+}

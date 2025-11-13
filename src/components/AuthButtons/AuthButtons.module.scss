@@ -1,0 +1,59 @@
+.AuthButtons {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+
+  &__disabled {
+    display: none;
+
+    @include on-desktop() {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      // height: 100%;
+    }
+  }
+
+  &__line {
+    background-color: $light-grey;
+    height: 100%;
+    width: 1px;
+  }
+
+  &__button {
+    transition: all 0.3s ease;
+    border: none;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #ffffff00;
+    height: 100%;
+    font-weight: 700;
+
+    &--create {
+      color: $blue-color;
+
+      @include on-desktop {
+        padding-inline: 24px;
+      }
+
+      &:hover {
+        border: 1px solid $blue-color;
+        background-color: #dfe1f4;
+      }
+    }
+
+    &--log-in {
+      padding-inline: 24px;
+      color: #fff;
+      background-color: $blue-color;
+
+      &:hover {
+        border: 1px solid $blue-color;
+        background-color: #dfe1f4;
+        color: $blue-color;
+      }
+    }
+  }
+}

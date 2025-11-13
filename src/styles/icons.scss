@@ -1,0 +1,182 @@
+.icon {
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+
+  &__large {
+    height: 48px;
+    width: 48px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    flex-shrink: 0;
+  }
+
+  &--close {
+    background-image: url('../images/icons/close-icon.png');
+
+    @include on-desktop() {
+      display: none;
+    }
+  }
+
+  &--menu {
+    background-image: url('../images/icons/menu.png');
+
+    @include on-desktop() {
+      display: none;
+    }
+  }
+
+  &--phone {
+    background-image: url('../images/icons/phone-icon.png');
+  }
+
+  &--planet {
+    background-image: url('../images/icons/planet-icon.png');
+  }
+
+  &--fire {
+    background-image: url('../images/icons/fire-icon.png');
+  }
+
+  &--people {
+    background-image: url('../images/icons/people-icon.png');
+  }
+
+  &--train {
+    background-image: url('../images/icons/train-icon.png');
+  }
+
+  &--location {
+    background-image: url('../images/icons/location-icon.png');
+  }
+
+  &--city {
+    background-image: url('../images/icons/city-icon.png');
+  }
+
+  &--twiter {
+    background-image: url('../images/icons/twiter-icon.png');
+  }
+
+  &--facebook {
+    background-image: url('../images/icons/facebook-icon.png');
+  }
+
+  &--country {
+    width: 42px;
+    height: 32px;
+    background-size: cover;
+
+    &--germany {
+      background-image: url('../images/icons/DE-Germany.png');
+    }
+
+    &--spain {
+      background-image: url('../images/icons/ES-Spain.png');
+    }
+
+    &--france {
+      background-image: url('../images/icons/FR-France.png');
+    }
+
+    &--italy {
+      background-image: url('../images/icons/IT-Italy.png');
+    }
+
+    &--netherlands {
+      background-image: url('../images/icons/NL-Netherlands.png');
+    }
+  }
+
+  &--down-arrow {
+    background-image: url('../images/icons/down-arrow-icon.png');
+  }
+
+  &--plus {
+    background-image: url('../images/icons/plus-icon.png');
+  }
+
+  &--linkedIn {
+    background-image: url('../images/icons/linkedIn-icon.png');
+  }
+
+  &--instagram {
+    background-image: url('../images/icons/instagram-icon.png');
+  }
+
+  &--fan {
+    background-image: url('../images/icons/fan-icon.png');
+  }
+
+  &--hands {
+    background-image: url('../images/icons/hands.png');
+  }
+
+  &--monitor {
+    background-image: url('../images/icons/monitor-icon.png');
+  }
+
+  &--sofa {
+    background-image: url('../images/icons/sofa.png');
+  }
+
+  &--wc {
+    background-image: url('../images/icons/wc.png');
+  }
+
+  &--wifi {
+    background-image: url('../images/icons/wifi-icon.png');
+  }
+
+  &--star {
+    width: 13px;
+    height: 13px;
+    background-size: cover;
+    background-image: url('../images/icons/star.png');
+  }
+
+  &--phone-light {
+    background-image: url('../images/icons/phone-icon-light.png');
+  }
+
+  &--email {
+    background-image: url('../images/icons/email-icon.png');
+  }
+
+  &--soc-net {
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+
+    &--instagram-light {
+      background-image: url('../images/icons/instagram-white-icon.png');
+    }
+
+    &--linkedIn-light {
+      background-image: url('../images/icons/linkedin-white-icon.png');
+    }
+
+    &--dribble-light {
+      background-image: url('../images/icons/dribbble-white-icon.png');
+    }
+
+    &--twitter-light {
+      background-image: url('../images/icons/twitter-white-icon.png');
+    }
+
+    &--facebook-light {
+      background-image: url('../images/icons/facebook-white-icon.png');
+    }
+  }
+
+  &-- {
+    background-image: url('../images/icons');
+  }
+
+
+}

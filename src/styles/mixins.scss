@@ -1,0 +1,51 @@
+@mixin on-tablet() {
+  @media (min-width: $tablet-min-width) {
+    @content;
+  }
+}
+
+@mixin on-desktop() {
+  @media (min-width: $desktop-min-width) {
+    @content;
+  }
+}
+
+@mixin content-padding-inline($padding-px: 20px) {
+  padding-inline: #{$padding-px};
+
+  @include on-tablet {
+    max-width: $tablet-min-width;
+    margin-inline: auto;
+    width: 100%;
+  }
+
+  @include on-desktop {
+    max-width: $desktop-min-width;
+    margin-inline: auto;
+    width: 100%;
+  }
+}
+
+@mixin underline-text-hover($height) {
+  & {
+    position: relative;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: #{$height};
+    height: 4px;
+    background-color: $blue-color;
+
+    transform: scale(0);
+    transition: transform 0.3s;
+    transform-origin: left;
+  }
+
+  &:hover::after {
+    transform: scale(1);
+  }
+}

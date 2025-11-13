@@ -1,0 +1,17 @@
+.DriverCard {
+  padding: 24px 26px;
+  border: 1px solid $light-grey;
+  border-radius: 4px;
+
+  &__img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+
+  &__experience {
+    font-weight: 400;
+    font-size: 16px;
+    color: $grey;
+  }
+}

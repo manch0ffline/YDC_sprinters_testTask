@@ -1,0 +1,30 @@
+.Main {
+  padding-top: 72px;
+
+  &__text--grey {
+    color: $main-text-color;
+  }
+
+  &__link {
+    border: 1px solid $blue-color;
+  }
+
+  &__text--blue {
+    color: $blue-color;
+  }
+
+  &__line {
+    height: 1px;
+    width: 100%;
+    background-color: $light-grey;
+  }
+
+  &__bg-reviews {
+    border-radius: 13% 0 0 0 ;
+    background-repeat: no-repeat;
+    background-image: url(../../images/bg-lines-2.svg);
+    background-color: $bg-color;
+    background-position: right;
+    background-size: cover;
+  }
+}
